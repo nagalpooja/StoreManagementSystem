@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.0.0-ci455" />
+    <PackageReference Include="NetBarcode" Version="2.0.0-beta.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StoreManagementSystemX.Infrastructure\StoreManagementSystemX.Infrastructure.csproj" />
+    <ProjectReference Include="..\StoreManagementX.Domain\StoreManagementSystemX.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
