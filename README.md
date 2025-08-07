@@ -49,17 +49,3 @@ Build and run the application from Visual Studio.
 -   **User-Friendly Interface**: WPF provides an intuitive and visually appealing user interface.
 -   **Data Persistence**: Utilizes Entity Framework Core for efficient and reliable data storage.
 
-### Roadmap
-
-The project roadmap outlines future enhancements and features planned for the Store Management System. The current focus includes:
-
-- [ ] Cash register for mirroring the actual cash in the actual register
-
-Integration of additional reporting features.
-Enhanced user authentication and authorization mechanisms.
-Performance optimizations and code refactoring.
-Contribution
-Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
-
-License
-This project is licensed under the MIT License.
